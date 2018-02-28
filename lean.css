@@ -1,0 +1,276 @@
+@page {
+    margin: 1em;
+}
+
+@font-face {
+  font-family: "FreeSerif";
+  src: url(font/FreeSerif.ttf)
+}
+@font-face {
+  font-family: "Merriweather-Regular";
+  src: url(font/Merriweather-Regular.ttf)
+}
+@font-face {
+  font-family: "Merriweather-Bold";
+  src: url(font/Merriweather-Bold.ttf)
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(font/Montserrat-Regular.ttf)
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url(font/Montserrat-Bold.ttf)
+}
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url(font/Montserrat-Light.ttf)
+}
+
+.serif {font-family: "FreeSerif", serif;}
+p {text-indent: 1em; margin: 0 0 0 0; font-family:"Merriweather-Regular", serif; line-height:22px}
+h1, h2, h3, h4, h5, h6 {margin: 0 0 0 0; font-weight: normal; -webkit-hyphens: none; adobe-hyphenate: none; -moz-hyphens: none}
+div {margin: 0 0 0 0;}
+sup {line-height: 0}
+.inherit {color: inherit}
+/* Pagebreak */
+.pagebreak {page-break-before: always}
+
+.pagebreak10 {page-break-before: always; margin-top: 15%}
+
+/* Cover */
+.cover {margin: 0 0 0 0; text-align: center; background-color: #ffffff;}
+.coverimage {height: 100%; text-align: center; margin: 0 0 0 0}
+strong {font-family:"Merriweather-Bold", serif;}
+/* Titlepage */
+.author {font-size: 150%; font-family: "Merriweather-Regular", serif; font-style: normal; font-weight: normal; text-indent: 0; margin: 10% 0 0 0; text-align: center; -webkit-hyphens: none; adobe-hyphenate: none; -moz-hyphens: none}
+.title {font-size: 250%; font-family: "Merriweather-Regular", serif; font-style: normal; font-weight: normal; text-indent: 0; margin: 10% 0 0 0; text-align: center; -webkit-hyphens: none; adobe-hyphenate: none; -moz-hyphens: none}
+.subtitle {font-size: 100%; font-family: "Merriweather-Regular", serif; font-style: normal; font-weight: normal; text-indent: 0; margin: 2em 0 2em 0; text-align: center; -webkit-hyphens: none; adobe-hyphenate: none; -moz-hyphens: none}
+.logo {text-indent: 0; text-align: center; margin: 30% 0 0 0}
+
+/* Copyright */
+.copyright1 {font-size: 80%; font-family: "Merriweather-Regular", serif; text-indent: 0; margin: 2em 0 0 0; text-align: center}
+.copyright2 {font-size: 80%; font-family: "Merriweather-Regular", serif; text-indent: 0; margin: 1em 0 0 0; text-align: center}
+
+/* Dedication */
+.dedication {font-size: 100%; font-family: "Merriweather-Regular", serif; font-style: normal; font-weight: normal; text-indent: 0; margin: 20% 0 0 0; text-align: center}
+
+/* Table of Contents */
+.toc {font-size: 100%; font-family: "Montserrat-Regular", sans-serif; font-style: normal; font-weight: normal; text-indent: 0; margin: 1em 0 0 0; color: #7e8584}
+.toc_ {font-size: 100%; font-family: "Montserrat-Regular", sans-serif; font-style: normal; font-weight: normal; text-indent: 0; margin: 1% 0 0 0; color: #7e8584}
+.toc1 {font-size: 110%; font-family: "Merriweather-Regular", serif; font-style: normal; font-weight: bold; text-indent: 0; margin: 1% 0 0 0;}
+
+/* Header */
+h4.halftitle {font-size: 150%; font-family: "Merriweather-Regular", serif; font-style: normal; font-weight: normal; text-indent: 0; margin: 15% 0 0 0 ; text-align: center; -webkit-hyphens: none; adobe-hyphenate: none; -moz-hyphens: none}
+h4.partnum {font-size: 150%; font-family: "Merriweather-Regular", serif; font-style: normal; font-weight: normal; text-indent: 0; margin: 15% 0 15% 0; text-align: center; -webkit-hyphens: none; adobe-hyphenate: none; -moz-hyphens: none}
+h4.parttitle {font-size: 250%; font-family: "Merriweather-Regular", serif; font-style: normal; font-weight: normal; text-indent: 0; margin: 15% 0 15% 0; text-align: center; -webkit-hyphens: none; adobe-hyphenate: none; -moz-hyphens: none}
+h4.chapnum {font-size: 150%; font-family: "Merriweather-Regular", serif; font-style: normal; font-weight: normal; text-indent: 0; margin: 15% 0 15% 0; text-align: center; -webkit-hyphens: none; adobe-hyphenate: none; -moz-hyphens: none}
+.chaptitle {font-size: 200%; font-family: "Montserrat-Light", sans-serif; font-style: normal; font-weight: normal; text-indent: 0; margin: 10% 0 3% 0;-webkit-hyphens: none; adobe-hyphenate: none; -moz-hyphens: none}
+
+/* Front Matter */
+h4.fronthead {font-size: 200%; font-family: "Montserrat-Light", sans-serif; font-style: normal; font-weight: normal; text-indent: 0; margin: 10% 0 1% 0; color: #b82b34; -webkit-hyphens: none; adobe-hyphenate: none; -moz-hyphens: none}
+
+.fstar{font-size: 150%;}
+
+/* Block Quote 
+Ex. 
+<div class="blockquote">
+<p>text</p>
+<p class="textbreak">text</p>
+</div>
+*/
+div.blockquote {margin: 1em 0 1em 0;}
+
+/* Line Spacing 
+Use 
+<p>&nbsp;</p> 
+to insert empty line space.
+Ex.
+<p>Text</p>
+<p>&nbsp;</p>
+<p>Text</p>
+
+.topbot {margin-top: 1em; margin-bottom: 1em}
+.topbot2 {margin-top: 2em; margin-bottom: 2em} 
+.top {margin-top: 1em; margin-bottom: 0em}
+.top2 {margin-top: 2em; margin-bottom: 0em}
+.bot {margin-bottom: 1em; margin-top: 0em}
+.bot2 {margin-bottom: 2em; margin-top: 0em} 
+*/
+
+/* Lists 
+Ex.
+<div class="list">
+<p>1. List 1</p>
+<p>2. List 2</p>
+</div>
+*/
+div.list{margin: 1em 0 1em 0;}
+ul {margin: 0 0 0 0;}
+.ul {margin: 0 0 0 1em}
+.ul2 {margin: 1em 0 0 1em}
+
+/* Back Matter */
+h4.backhead {font-size: 100%; font-family: "Merriweather-Regular", serif; font-style: normal; font-weight: normal; text-indent: 0; margin: 10% 0 0 0; text-align: center; -webkit-hyphens: none; adobe-hyphenate: none; -moz-hyphens: none}
+.footnote {text-indent: 0; margin: 1em 0 0 0}
+.index {margin: 0 0 0 1em; text-indent: -1em}
+
+/* Sections/Sub-Sections */
+.textfirst {font-size: 100%; text-indent: 0; margin: 0 0 0 0}
+.head1 {font-size: 130%; font-family: "Merriweather-Regular", serif; font-style: normal; font-weight: bold; text-indent: 0; margin: 1em 0 1% 0; color: #6f98c8; -webkit-hyphens: none; adobe-hyphenate: none; -moz-hyphens: none}
+.textafterhead1 {font-size: 100%; font-family: "Merriweather-Regular", serif; font-style: normal; font-weight: normal; text-indent: 0; margin: 1em 0 0 0}
+.head2 {font-size: 120%; font-family: "Montserrat-Regular", sans-serif; font-style: normal; font-weight: bold; text-indent: 0; margin: 2em 0 0 0; -webkit-hyphens: none; adobe-hyphenate: none; -moz-hyphens: none}
+.textafterhead2 {font-size: 100%; font-family: "Merriweather-Regular", serif; font-style: normal; font-weight: normal; text-indent: 0; margin: 1em 0 0 0}
+
+/* Figures, Images, Captions */
+.caption {font-size: 80%; font-family: "Montserrat-Regular", sans-serif; font-style: normal; font-weight: normal; text-indent: 0; margin: 1% 0 0 0; text-align: center}
+div.figure {text-indent: 0em; margin-top: 1em; margin-bottom: 1em; text-align: center;}
+div.figuret {text-indent: 0em; margin-top: 1em; margin-bottom: 0em; text-align: center;}
+
+
+/* Miscellaneous */
+.sc {font-size: 80%} /* Add a Comment if edited */
+.textbreak {margin: 1em 0 0 0; text-indent: 0}
+.textbreak1p {margin: 1% 0 0 0; text-indent: 0}
+.textbreak2 {margin: 2em 0 0 0; text-indent: 0}
+.textbreak_ {margin: 1.5em 0 0 0; text-indent: 0}
+.block {margin: 0 1em 0 1em; text-indent: 0}
+.block1 {margin: 0 0 0 1em; text-indent: 0}
+.noindent {text-indent: 0}
+.indent {text-indent: 1em}
+.center {text-indent: 0; text-align: center}
+.center1 {text-indent: 0; text-align: center; margin: 1em 0 0 0}
+.center2 {text-indent: 0; text-align: center; margin: 2em 0 0 0}
+.right {text-indent: 0; text-align: right}
+.right1 {text-indent: 0; text-align: right; margin: 1em 0 0 0}
+.hang1 {text-indent: -0.8em ; margin: 0 0 0 2em}
+.hang1p {text-indent: -0.8em ; margin: 1% 0 0 2em}
+.hang2 {text-indent: -0.8em ; margin: 1em 0 0 2em}
+.sans {font-family: "Montserrat-Regular", sans-serif;}
+.gray {color: gray}
+.sansgray {font-family: "Montserrat-Regular", sans-serif; color: gray}
+div.box1 {border-top: 1pt black solid; border-right: 1pt black solid; border-bottom: 1pt black solid; border-left: 1pt black solid}
+div.box2 {border-top: 1pt black dashed; border-right: 1pt black dashed; border-bottom: 1pt black dashed; border-left: 1pt black dashed}
+div.box3 {border-top: 2pt black solid; border-right: 2pt black solid; border-bottom: 2pt black solid; border-left: 2pt black solid; padding-top: 1pt; padding-right: 1pt; padding-left: 1pt; padding-bottom: 1pt; }
+
+.step {margin: 1em 0 1% 0; text-indent: 0; color: #e97230; font-weight: bold; font-size: 110%}
+.step1 {margin: 0 0 0 0; text-indent: 0; color: #e52631; font-weight: normal; font-size: 130%; font-family: "Montserrat-Regular", sans-serif;}
+.step1_ {margin: 1em 0 1% 0; text-indent: 0; color: #e52631; font-weight: normal; font-size: 130%; font-family: "Montserrat-Regular", sans-serif;}
+
+.oranji {margin: 0 0 0 0; text-indent: 1em; color: #e97230; font-weight: bold; font-size: 100%}
+.oranji1p {margin: 1% 0 0 0; text-indent: 1em; color: #e97230; font-weight: bold; font-size: 100%}
+
+.blueray {margin: 0 0 0 0; text-indent: 1em; color: #0088ca; font-weight: bold; font-size: 100%}
+.blueray1 {margin: 1em 0 0 0; text-indent: 1em; color: #0088ca; font-weight: bold; font-size: 100%}
+
+
+
+.recipe {font-size: 200%; text-indent: 0; color: #7e8584; margin: 10% 0 0 0; font-family: "Montserrat-Light", sans-serif; line-height:30px}
+.recipe1 {font-size: 200%; text-indent: 0; color: #7e8584; margin: 2em 0 0 0; font-family: "Montserrat-Light", sans-serif; line-height:30px}
+.serves {color: #7e8584; font-size: 100%; font-family: "Montserrat-Bold", sans-serif; text-indent: 0; font-weight: bold; margin: 1em 0 0 0}
+
+.serves1a {text-align: left; margin: 1em 0 0 0}
+.h1a{height: 10%;}
+.serves1 {color: #7e8584; font-size: 100%; font-family: "Montserrat-Bold", sans-serif; text-indent: 0; font-weight: bold; margin: 1em 0 1em 0}
+.ingre {color: #7e8584; font-size: 100%; font-family: "Montserrat-Regular", sans-serif; text-indent: 0; font-weight: normal; margin: 1em 0 1em 0}
+.ingre1 {color: #fa4f56; font-size: 100%; font-family: "Merriweather-Regular", serif; text-indent: -1em; font-weight: normal; margin: 0 0 0 1em;}
+.ingre1_ {color: red; font-size: 100%; font-family: "Merriweather-Regular", serif; text-indent: -1em; font-weight: normal; margin: 1em 0 0 1em;}
+.method {color: #7e8584; font-size: 100%; font-family: "Montserrat-Regular", sans-serif; text-indent: 0; font-weight: normal; margin: 1em 0 1em 0}
+.method1 {color: #7e8584; font-size: 100%; font-family: "Montserrat-Regular", sans-serif; text-indent: 0; font-weight: normal; margin: 1em 0 1% 0}
+.method2 {color: #7e8584; font-size: 100%; font-family: "Montserrat-Regular", sans-serif; text-indent: 0; font-weight: normal; margin: 1em 0 1% 0; text-align: center;}
+.method0 {color: #7e8584; font-size: 100%; font-family: "Montserrat-Regular", sans-serif; text-indent: 0; font-weight: normal; margin: 0 0 0 0}
+.tip {margin: 1em 0 1% 0; font-size: 120%; text-indent: 0; font-family: "Merriweather-Regular", serif}
+.tip1 {margin: 1em 0 0 0; font-size: 120%; text-indent: 0; font-family: "Merriweather-Regular", serif}
+.tip0 {color: #7e8584; font-size: 130%; font-family: "Montserrat-Regular", sans-serif; text-indent: 0; font-weight: normal; margin: 0 0 0 0}
+.make {color: #a0118d; font-size: 100%; font-family: "Montserrat-Regular", sans-serif; text-indent: 0; font-weight: normal; margin: 1em 0 0 0}
+.make0 {color: #a0118d; font-size: 100%; font-family: "Montserrat-Regular", sans-serif; text-indent: 0; font-weight: normal; margin: 0 0 0 0}
+.good {color: #6f98c8; font-size: 100%; font-family: "Montserrat-Regular", sans-serif; text-indent: 0; font-weight: normal; margin: 1em 0 0 0}
+.good0 {color: #6f98c8; font-size: 100%; font-family: "Montserrat-Regular", sans-serif; text-indent: 0; font-weight: normal; margin: 0 0 0 0}
+.longer {color: #71b145; font-size: 100%; font-family: "Montserrat-Regular", sans-serif; text-indent: 0; font-weight: normal; margin: 1em 0 0 0}
+.highly {color: #f0ba29; font-size: 130%; font-family: "Montserrat-Regular", sans-serif; text-indent: 0; font-weight: normal; margin: 2em 0 0 0}
+.workout{color: #36badc; font-size: 100%;  text-indent: 4em; font-weight: normal; margin: 0 0 0 0}
+.ruletp {font-size: 200%; text-indent: 0; color: red; margin: 1em 0 0 0;}
+.ruletp_ {font-size: 200%; text-indent: 0; color: red; margin: 1em 0 0 0; font-family: "Montserrat-Light", sans-serif;}
+.ruletp1 {font-size: 150%; text-indent: 0; color: red; margin: 1em 0 0 0;}
+.rulenum {font-size: 100%; text-indent: 0;  margin: 2em 0 0 0;}
+.rulenum0 {font-size: 100%; text-indent: 1em;  margin: 1% 0 0 0; color: #7e8584;}
+.rulenum1 {font-size: 100%; text-indent: 1em;  margin: 0 0 1em 0; color: #7e8584;}
+.blue1 {margin: 15% 0 0 0; text-indent: 0; color: #0088ca; font-weight: bold; font-size: 120%}
+.blue2 {margin: 1em 0 0 0; text-indent: 0; color: #0088ca; font-weight: bold; font-size: 120%}
+.star{font-size:150%; text-indent:0em; color: #e52631}
+.index1{color: #36badc; font-size: 150%; font-family: "Montserrat-Regular", sans-serif; text-indent: 0; font-weight: normal; margin: 2em 0 0 0}
+.credit{color: #36badc; font-size: 120%; font-family: "Montserrat-Regular", sans-serif; text-indent: 0; font-weight: normal; margin: 2em 0 0 0}
+/* Additional */
+img {text-indent: 0em}
+.break {text-indent: 0; text-align: center; margin: 1em 0 1em 0}
+
+
+.crbox {background-color: #e5ecf5; margin: 1em 0 0 0; padding: 1em; font-size: 80%}
+.crblue {color: #5871b8}
+.crred {color: #b82b34}
+/* Images */
+.conth100 {height: 100vh;}
+.conth80 {height: 80vh;}
+.conth70 {height: 70vh;}
+.conth60 {height: 60vh;}
+.conth50 {height: 50vh;}
+
+img.imgh100{height: 100%;text-align: center;text-indent:0}
+img.imgh70{height: 70%;text-align: center;text-indent:0}
+
+
+.contw {width: 100%;}
+img.imgw50{width: 50%;text-align: center;text-indent:0}
+img.imgw60{width: 60%;text-align: center;text-indent:0}
+img.imgw65{width: 65%;text-align: center;text-indent:0}
+img.imgw70{width: 70%;text-align: center;text-indent:0}
+img.imgw80{width: 80%;text-align: center;text-indent:0}
+img.imgw90{width: 90%;text-align: center;text-indent:0}
+img.imgw100{width: 90%;text-align: center;text-indent:0}
+
+
+div.top15{margin: 15% 0 0 0}
+.bot {margin: 0 0 1em 0}
+.top {margin: 1em 0 0 0}
+/*colors*/
+.tocc1 {color: #b82b34}
+.tocc2 {color: #0088ca}
+.tocc3 {color: #e52631}
+.lb {color: #6f98c8}
+
+/*chapcolors*/
+.c1 {color: #b82b34}
+.c2 {color: #0088ca}
+
+/* star colors */
+.red {color: #e52631}
+/* tip */
+.lightblue {color: #36badc}
+.lightgreen {color: #9fd13e}
+.green {color: #71b145}
+.yellow {color: #f0ba29}
+
+/* Dropcap - Floating letter which only covers 2 lines of a normal paragraph*/
+
+.dropcap
+{
+font-size: 300%;
+line-height: 0em;
+}
+@media amzn-kf8
+{
+.dropcap
+{
+font-size: 1.4em;
+line-height: 0em;
+}
+}
+@media amzn-mobi
+{
+.dropcap
+{
+font-size: 1.4em;
+line-height: 0em;
+}
+}
+
